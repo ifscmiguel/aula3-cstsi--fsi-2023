@@ -1,12 +1,21 @@
 /* arquivo style.css */
 body{
-    background-color: #e7baba; /* cor de fundo */
-    color:rgb(143, 2, 68); /* cor do texto */
+    background-color:#721b1b;  /* cor de fundo */
+    color:rgb(143, 2, 68);      /* cor do texto */
     font-family: Verdana, Arial, "sans-serif"; /* fonte */
 }
 
 /* todos títulos h1 */
 h1{
     color:#000000;
-    text-align: center; /* centraliza */
+    text-align: center;         /* centraliza */
+}
+
+/* div com a class="container" */
+.container{
+    max-width: 980px;           /* largura máxima */
+    margin:auto;                /* centralizar a div */
+    border:1px solid black;
+    padding:50px;               /* espaçamento interno */
+    background-color:  pink;
 }
